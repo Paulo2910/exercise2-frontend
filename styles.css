@@ -1,0 +1,8 @@
+@import url('https://yarnpkg.com/en/package/normalize.css');
+
+:root{
+
+    --color1: grey;
+    --color2: black;
+
+}
