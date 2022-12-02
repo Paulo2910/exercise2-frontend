@@ -1,0 +1,67 @@
+@import url('https://yarnpkg.com/en/package/normalize.css');
+
+:root{
+
+    --color1: grey;
+    --color2: black;
+    --color3: white;
+}
+
+.logo{
+    background-color: var(--color1);
+    padding: 1%;
+    border-bottom: 1px solid var(--color2);
+    margin-bottom: 10px;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.products{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+section div img{
+    max-width: 100%;
+    height: auto;
+}
+
+section div {
+    border: solid 1px gray;
+    box-sizing: border-box;
+    background-color: var(--color1);
+    color: var(--color3);
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.decoration_styles{
+    display:flex;
+    flex-direction: column;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.contacts{
+    background-color: var(--color1);
+    color: var(--color3);
+}
