@@ -2,7 +2,7 @@
 
 :root{
 
-    --color1: grey;
+    --color1: #C0C0C0;
     --color2: black;
     --color3: white;
 }
@@ -11,43 +11,99 @@
     background-color: var(--color1);
     padding: 1%;
     border-bottom: 1px solid var(--color2);
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .gallery{
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    position: relative;
+    border: 1px solid black;
+    max-width: 1400px;
+    left: 50px;
+    max-height: 400px;
 }
 
 .products{
     display: flex;
     justify-content: space-around;
-    
+    border: 1px solid black;
+    position: relative;
+    max-width: 1400px;
+    left: 50px;
 }
 
 section div img{
-    max-width: 100%;
+    max-width: 500px;
     height: auto;
+    width: 500px;
 }
 
-section div {
+.ads {
     border: solid 1px gray;
     box-sizing: border-box;
     background-color: var(--color1);
     color: var(--color3);
-    max-width: 300px;
+    max-width: 500px;
+    max-height: auto;
     display: flex;
     flex-direction: column;
-
+    margin: 50px;
 }
 
 .decoration_styles{
-    display:flex;
-    flex-direction: column;
+    position: relative;
+    border: 1px solid black;
+    max-width: 1400px;
+    left: 50px;
+    display: flexbox;
+    justify-content: center;
+}
+
+.product{
+    position: relative;
+    display: flex;
+}
+
+.button{
+    position: relative;
+    left: 300px;
+    top: 10px;
+}
+
+.valor{
+    position: relative;
+    left: 10px;
+}
+
+.description_product{
+    position: relative;
+    top: 20px;
+    right: 30px;
+    display: flex;
+}
+
+.maps{
+    max-width: 300px;
+    max-height: auto;
+    border-radius: 5%;
 }
 
 .contacts{
+    padding: 30px;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    border: 1px solid black;
+    max-width: 1500px;
+    background-image: radial-gradient(
+        var(--color1),
+        var(--color2)
+    );
+}
+
+.dados{
     display: flex;
     flex-direction: column;
 }
@@ -61,7 +117,36 @@ ul {
     list-style: none;
 }
 
-.contacts{
-    background-color: var(--color1);
-    color: var(--color3);
+section ul li{
+    text-align: center;
+    padding: 70px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.moderno {
+    background-image: radial-gradient(
+        #aaffe9,
+        #dd3ea2
+    );
+    font-size: 20px;
+}
+
+.industrial{
+    background-image: radial-gradient(
+    #ff5757,
+    #ff914d
+    );
+    font-size: 20px;
+}
+
+.classico{
+    background-image: radial-gradient(
+        #c9e265,
+        #ffde59
+        );
+    font-size: 20px;
+}
+.title{
+    font-size: x-large;
 }
